@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CampusAR}",
+            "name": "Debug CampusAR",
+            "program": "${workspaceFolder:CampusAR}/.build/debug/CampusAR",
+            "preLaunchTask": "swift: Build Debug CampusAR"
+        },
+        {
+            "type": "swift-lldb",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:CampusAR}",
+            "name": "Release CampusAR",
+            "program": "${workspaceFolder:CampusAR}/.build/release/CampusAR",
+            "preLaunchTask": "swift: Build Release CampusAR"
+        }
+    ]
+}
